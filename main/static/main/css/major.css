@@ -1,0 +1,96 @@
+
+body {
+    color:black;
+}
+.wrap{
+     position: absolute;
+}
+aside{
+    position: fixed;
+    text-align: left;
+    z-index: 1;
+    margin: 0;
+    float: left;
+    padding: 5vh 5vw;
+    width: 25%;
+    box-shadow: 0vh 3vh 10vw 0vw white;
+    height: 100vh;
+}
+
+aside a{
+     text-decoration: none;
+     color: grey;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 2vh;
+    margin-block-end: 2vh;
+    margin-inline-start:2vw;
+    margin-inline-end: 2vw;
+    padding-inline-start: 2vh;
+}
+
+
+
+.alignc{
+    margin: 10px auto 20px;
+    display: block;
+}
+
+.main{
+    position: fixed;
+    color:white;
+    opacity: 0.9;
+    width: 50vw;
+    z-index: 1;
+    margin-left: 35%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 1vw 1vh white;
+    border: 1% solid rgba(0,0,0,.125);
+    border-radius: 0.35rem;
+    padding: 2.5%;
+    font-size: 2vh; /* Пример относительного размера шрифта */
+}
+
+.main_view{
+    color:white;
+    z-index: 1;
+    opacity: 0.9;
+    width: 65%;
+    margin-left: 30%;
+    margin-top:2%;
+    background: black;
+    box-shadow: 0px 0px 1vw 1vh black;
+    border-radius: 0.35rem;
+    padding: 2.5%;
+}
+
+.contacts ul{
+    margin-top: 5%;
+    list-style: none;
+    display:  flex;
+    justify-content: center;
+
+}
+.contacts ul li{
+    margin-right:5%;
+}
+
+aside ul {list-style: none}
+
+aside ul li{
+    color: #70a9a1;
+    display: flex;
+    font-size: 3vh;
+    margin-top:5vw;
+    transition: all 0.7s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #70a9a1;
+    text-decoration:none;
+    transform: scale(1.2);
+}
+

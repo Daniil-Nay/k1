@@ -1,0 +1,16 @@
+{% extends 'main/sample.html' %}
+
+{% block title %}Новости{% endblock %}
+
+
+{% block content%}
+
+    {% for key in news%}
+    <div class="block">
+        <h4 style="text-align: center">{{key.name}}</h4>
+        <p style="text-align: center;"><img src="{{key.cover.url}}" style='width:30%;'></p>
+        <p>{{key.preview}}</p>
+    </div>
+    {%endfor%}
+
+{% endblock %}
